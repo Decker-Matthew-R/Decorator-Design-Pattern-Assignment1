@@ -9,9 +9,9 @@ abstract class ToppingsAssigner implements DecoratorPizzaProject
 
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription();
+        return tempPizza.getDisplay();
     }
 
     public double getCost()

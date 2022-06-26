@@ -9,9 +9,9 @@ public class Mushrooms extends ToppingsAssigner
        
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Mushrooms";
+        return tempPizza.getDisplay() + ", Mushrooms";
     }
 
     public double getCost()

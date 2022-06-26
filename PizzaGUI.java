@@ -5,7 +5,7 @@ public class PizzaGUI
     {
         DecoratorPizzaProject plainPizza = new Sausage(new Mushrooms(new GreenPeppers(new Pepperoni(new TomatoSauce(new Cheese(new BasicPizza()))))));
 
-        System.out.println("Ingredients: " + plainPizza.getDescription());
+        System.out.println("Ingredients: " + plainPizza.getDisplay());
 
         System.out.println("Cost: $" + plainPizza.getCost() + " + tax. Enjoy!");
     }
