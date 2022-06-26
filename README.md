@@ -4,7 +4,9 @@
 ### Assignment 1  
 ### Dr. Hassan Pournaghshband
 
-A Simple Program to Demonstrate the Decorator Design Pattern: Coded in Java.
+In this repo you will find:
+- A simple application to demonstrate how the decorator pattern works
+- A class diagram for calculating the cost of the pizza
 
 The following program is a simple example of the decorator pattern and how it works.. As this is a simple example, it does not allow the user to choose ingredients through a series of options, but rather provides all the decorators and shows how they are used to extend the basic pizza class.  
 <br>
