@@ -9,9 +9,9 @@ public class Pepperoni extends ToppingsAssigner
        
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Pepperoni";
+        return tempPizza.getDisplay() + ", Pepperoni";
     }
 
     public double getCost()

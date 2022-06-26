@@ -9,9 +9,9 @@ public class Cheese extends ToppingsAssigner
         System.out.println("We have added cheese to your pizza");
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Cheese";
+        return tempPizza.getDisplay() + ", Cheese";
     }
 
     public double getCost()

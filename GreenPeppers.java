@@ -9,9 +9,9 @@ public class GreenPeppers extends ToppingsAssigner
        
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Green Peppers";
+        return tempPizza.getDisplay() + ", Green Peppers";
     }
 
     public double getCost()

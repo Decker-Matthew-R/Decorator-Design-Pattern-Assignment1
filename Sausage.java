@@ -9,9 +9,9 @@ public class Sausage extends ToppingsAssigner
        
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Sausage";
+        return tempPizza.getDisplay() + ", Sausage";
     }
 
     public double getCost()

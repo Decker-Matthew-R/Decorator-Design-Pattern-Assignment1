@@ -3,7 +3,7 @@ public class BasicPizza implements DecoratorPizzaProject
 {
 
     @Override
-    public String getDescription() 
+    public String getDisplay() 
     {
         return "Your pizza will be thin crust";
     }

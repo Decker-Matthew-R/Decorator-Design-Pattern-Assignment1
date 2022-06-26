@@ -9,9 +9,9 @@ public class TomatoSauce extends ToppingsAssigner
        
     }
 
-    public String getDescription()
+    public String getDisplay()
     {
-        return tempPizza.getDescription() + ", Tomato Sauce";
+        return tempPizza.getDisplay() + ", Tomato Sauce";
     }
 
     public double getCost()
